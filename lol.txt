@@ -1,0 +1,33 @@
+Tests
+ amgut/test/javascript_tests/index.html            |  65 +++++
+ amgut/test/javascript_tests/qunit/qunit-min.css   |  11 +
+ amgut/test/javascript_tests/qunit/qunit-min.js    |  11 +
+ amgut/test/javascript_tests/runner.js             | 139 ++++++++++
+ amgut/test/javascript_tests/test_interactive.js   | 704 +++++++++++++++++++++++++++++++++++++++++++++++
+ amgut/static/vendor/licences/chart.js_licence.md  |   7 +
+ amgut/lib/locale_data/american_gut.py             |  63 +++++
+ amgut/lib/locale_data/british_gut.py              |  62 +++++
+ .travis.yml                                       |   3 +-
+ amgut/lib/data_access/test/test_ag_data_access.py |  28 ++
+
+Misc
+ amgut/static/vendor/js/Chart.bundle.min.js        |  15 +
+ amgut/static/vendor/js/Chart.min.js               |  14 +
+ amgut/static/vendor/js/chroma.min.js              |  33 +++
+ setup.py                                          |   3 +-
+
+ amgut/handlers/add_sample.py                      |   7 +-
+ amgut/webserver.py                                |   6 +
+
+Python
+ amgut/handlers/interactive.py                     | 140 ++++++++++
+ amgut/lib/constants.py                            |  75 +++++
+ amgut/lib/data_access/ag_data_access.py           |  70 ++---
+
+JavaScript
+ amgut/templates/sitebase.html                     |   5 +-
+ amgut/templates/taxa.html                         | 245 +++++++++++++++++
+ amgut/static/js/american_gut.js                   |  15 +
+ amgut/static/js/interactive.js                    | 484 ++++++++++++++++++++++++++++++++
+
+
